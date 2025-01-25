@@ -1,0 +1,15 @@
+[project]
+name = "petprod-scraper"
+version = "0.1.0"
+description = "Web Scraper for petshops catalogues"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "numpy>=2.2.2",
+    "pandas>=2.2.3",
+    "playwright>=1.49.1",
+    "requests>=2.32.3",
+    "rich>=13.9.4",
+    "selenium-driverless>=1.9.4",
+]
